@@ -1,0 +1,1 @@
+Rectangular button: red primary, hairline secondary, underlined ghost. One primary per view.\n\n```jsx\n<Button variant="primary" arrow>Start a conversation</Button>\n<Button variant="secondary" ink>Our point of view</Button>\n```\nProps: variant primary|secondary|ghost, size sm|md|lg, ink (dark surfaces), arrow.

@@ -1,0 +1,1 @@
+Text input with mono uppercase label above.\n\n```jsx\n<Input label="Work email" placeholder="you@company.com" />\n```

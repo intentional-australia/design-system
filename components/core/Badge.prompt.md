@@ -1,0 +1,1 @@
+Outline pill tag, mono uppercase.\n\n```jsx\n<Badge tone="red">Case study</Badge>\n```

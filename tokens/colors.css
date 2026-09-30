@@ -1,0 +1,41 @@
+/* Intentional · Growth Advisory refresh · color tokens */
+:root {
+  /* Daylight (default) surfaces */
+  --bg: #EDEBE5;            /* gesso: page background */
+  --bg-2: #DFDCD2;          /* chalk: tinted panels, wells */
+  --surface: #FFFFFF;       /* cards, tables */
+  --fg-1: #1A1815;          /* primary text (ink) */
+  --fg-2: #524E45;          /* secondary text */
+  --fg-3: #77736A;          /* muted text, labels */
+  --border: rgba(26,24,21,0.15);
+  --border-subtle: rgba(26,24,21,0.08);
+
+  /* Ink mode (dark panels, decks, emphasis sections) */
+  --ink: #1A1815;
+  --ink-2: #26221E;         /* elevated surface on ink */
+  --ink-fg-1: #EDEBE5;      /* bone: primary text on ink */
+  --ink-fg-2: #9A9689;      /* stone: secondary on ink */
+  --ink-border: rgba(237,235,229,0.14);
+  --ink-border-subtle: rgba(237,235,229,0.08);
+
+  /* Brand */
+  --accent: #D4271C;        /* Intentional red: retained, signal only */
+  --accent-hover: #B81F15;
+  --accent-soft: rgba(212,39,28,0.08);
+
+  /* Semantic */
+  --positive: #2E5339;      /* on daylight surfaces */
+  --positive-ink: #2E9958;  /* on ink surfaces */
+  --negative: #B4231A;
+  --hold: #77736A;
+
+  /* Aliases */
+  --text-body: var(--fg-1);
+  --text-muted: var(--fg-3);
+  --surface-card: var(--surface);
+  --surface-panel: var(--ink);
+
+  /* Elevation */
+  --shadow-card: 0 1px 2px rgba(26,24,21,0.06), 0 4px 16px rgba(26,24,21,0.05);
+  --shadow-panel: 0 8px 32px rgba(26,24,21,0.35);
+}

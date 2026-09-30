@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- @template name="Quarterly Growth Report" description="Board-ready scorecard: stats, index table, pattern chart" -->
+<html lang="en"><head><meta charset="utf-8"><title>Growth report · Q2 FY26</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+body{margin:0;background:var(--bg);font-family:var(--font-body);color:var(--fg-1);}
+a{color:inherit;text-decoration:none;}a:hover{opacity:0.7;}
+.mono{font-family:var(--font-mono);}
+.lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--fg-3);}
+.eyebrow{font-family:var(--font-mono);font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent);}
+.btn{font-family:var(--font-body);font-weight:500;font-size:15px;padding:13px 26px;border-radius:2px;border:1px solid transparent;cursor:pointer;display:inline-flex;align-items:center;gap:8px;background:transparent;transition:all 250ms cubic-bezier(0.16,1,0.3,1);}
+.btn-primary{background:var(--accent);color:#EDEBE5;}.btn-primary:hover{background:var(--accent-hover);}
+.btn-secondary{color:var(--fg-1);border-color:var(--border);}.btn-secondary:hover{opacity:0.7;}
+.btn:active{transform:scale(0.98);}
+.serif{font-family:var(--font-editorial);font-style:italic;}
+.figplate{position:absolute;left:16px;bottom:16px;background:rgba(26,24,21,0.85);backdrop-filter:blur(12px);color:var(--ink-fg-1);font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;padding:8px 12px;}
+.photo{background:linear-gradient(135deg,#332E28 0%,#1C1916 55%,#0E0D0B 100%);position:relative;border-radius:2px;overflow:hidden;}
+.photo::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 25% 20%,rgba(237,235,229,0.14),transparent 55%);}
+</style></head>
+<body style="background:var(--bg)">
+<div style="max-width:1080px;margin:0 auto;padding:64px 48px;display:flex;flex-direction:column;gap:48px">
+  <header style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid var(--fg-1);padding-bottom:24px">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span class="eyebrow">Quarterly growth report</span>
+      <h1 style="font-weight:500;font-size:52px;letter-spacing:-0.03em;margin:0">Alderman &amp; Sons · Q2 FY26</h1>
+      <span class="serif" style="font-size:18px;color:var(--fg-2)">Prepared for the board, 14 August 2026.</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px"><img src="../../assets/logo-mark.png" style="width:34px;height:34px"><span style="font-size:16px">Intentional</span></div>
+  </header>
+
+  <section style="display:flex;flex-direction:column;gap:16px">
+    <span class="lbl">SCORECARD · HEADLINE MEASURES</span>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:2px;box-shadow:var(--shadow-card);padding:22px;display:flex;flex-direction:column;gap:8px">
+        <span class="lbl">Revenue</span><span style="font-size:34px;line-height:1;letter-spacing:-0.02em">$4.8M</span><span class="mono" style="font-size:12px;color:var(--positive)">▲ 18% YOY</span>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:2px;box-shadow:var(--shadow-card);padding:22px;display:flex;flex-direction:column;gap:8px">
+        <span class="lbl">Contribution margin</span><span style="font-size:34px;line-height:1;letter-spacing:-0.02em">31.4%</span><span class="mono" style="font-size:12px;color:var(--positive)">▲ 4.2 PTS</span>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:2px;box-shadow:var(--shadow-card);padding:22px;display:flex;flex-direction:column;gap:8px">
+        <span class="lbl">Blended MER</span><span style="font-size:34px;line-height:1;letter-spacing:-0.02em">3.8</span><span class="mono" style="font-size:12px;color:var(--hold)">HOLD</span>
+      </div>
+      <div style="background:var(--ink);border-radius:2px;padding:22px;display:flex;flex-direction:column;gap:8px">
+        <span class="lbl" style="color:var(--ink-fg-2)">Growth index</span><span style="font-family:var(--font-numeral);font-weight:700;font-size:46px;line-height:1;color:var(--ink-fg-1)">137.2</span><span class="mono" style="font-size:12px;color:var(--positive-ink)">▲ 12.4 YOY</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:start">
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <span class="lbl">FIG. 01 · NEW CUSTOMER REVENUE BY QUARTER ($M)</span>
+      <div style="display:flex;align-items:flex-end;gap:14px;height:220px;border-bottom:1px solid var(--border);border-left:1px solid var(--border);padding:0 12px">
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;height:100%"><div style="height:34%;background:repeating-linear-gradient(45deg,var(--accent) 0,var(--accent) 1px,transparent 1px,transparent 5px);border:1px solid var(--accent)"></div><span class="lbl" style="text-align:center">Q3</span></div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;height:100%"><div style="height:46%;background:repeating-linear-gradient(0deg,var(--accent) 0,var(--accent) 1px,transparent 1px,transparent 5px);border:1px solid var(--accent)"></div><span class="lbl" style="text-align:center">Q4</span></div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;height:100%"><div style="height:62%;background:repeating-radial-gradient(circle,var(--accent) 0,var(--accent) 1px,transparent 1px,transparent 5px);border:1px solid var(--accent)"></div><span class="lbl" style="text-align:center">Q1</span></div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;height:100%"><div style="height:84%;background:var(--accent)"></div><span class="lbl" style="text-align:center;color:var(--fg-1)">Q2</span></div>
+      </div>
+      <span class="mono" style="font-size:12px;color:var(--fg-3)">SOURCE: MMM + GA4 · PATTERN FILLS DISTINGUISH PRIOR QUARTERS</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <span class="lbl">READING</span>
+      <p style="font-size:15px;line-height:1.55;color:var(--fg-1);margin:0">New customer revenue grew for a fourth consecutive quarter while payback held under 45 days. The price increase carried by the brand work in Q4 is now visible in contribution margin.</p>
+      <p class="serif" style="font-size:17px;color:var(--fg-2);margin:0">Margin is the quarter's story: growth paid for itself.</p>
+    </div>
+  </section>
+
+  <section style="display:flex;flex-direction:column;gap:16px">
+    <span class="lbl">WORKSTREAMS · Δ VS LAST QUARTER</span>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:2px">
+      <div style="display:grid;grid-template-columns:44px 1fr auto 100px;gap:16px;padding:14px 20px;border-bottom:1px solid var(--border)" class="lbl"><span>NO.</span><span>WORKSTREAM</span><span>OWNER</span><span>Δ QTR</span></div>
+      <div style="display:grid;grid-template-columns:44px 1fr auto 100px;gap:16px;padding:14px 20px;border-bottom:1px solid var(--border-subtle);font-size:14px;align-items:center"><span class="mono" style="color:var(--accent)">01</span><span>Measurement architecture</span><span style="color:var(--fg-3)">INT</span><span class="mono" style="font-size:12px;color:var(--positive)">▲ +0.7</span></div>
+      <div style="display:grid;grid-template-columns:44px 1fr auto 100px;gap:16px;padding:14px 20px;border-bottom:1px solid var(--border-subtle);font-size:14px;align-items:center"><span class="mono" style="color:var(--accent)">02</span><span>Brand story &amp; creative system</span><span style="color:var(--fg-3)">INT</span><span class="mono" style="font-size:12px;color:var(--positive)">▲ +1.2</span></div>
+      <div style="display:grid;grid-template-columns:44px 1fr auto 100px;gap:16px;padding:14px 20px;border-bottom:1px solid var(--border-subtle);font-size:14px;align-items:center"><span class="mono" style="color:var(--accent)">03</span><span>Campaign to market</span><span style="color:var(--fg-3)">JOINT</span><span class="mono" style="font-size:12px;color:var(--hold)">HOLD</span></div>
+      <div style="display:grid;grid-template-columns:44px 1fr auto 100px;gap:16px;padding:14px 20px;font-size:14px;align-items:center"><span class="mono" style="color:var(--accent)">04</span><span>Retention &amp; second purchase</span><span style="color:var(--fg-3)">CLIENT</span><span class="mono" style="font-size:12px;color:var(--negative)">▼ −0.3</span></div>
+    </div>
+  </section>
+
+  <footer style="border-top:1px solid var(--border);padding-top:20px;display:flex;justify-content:space-between">
+    <span class="lbl">INTENTIONAL · GROWTH ON THE RECORD</span>
+    <span class="lbl">Q2 FY26 · PAGE 01</span>
+  </footer>
+</div>
+</body></html>

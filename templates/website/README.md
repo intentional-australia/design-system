@@ -1,0 +1,2 @@
+# Website UI kit
+Marketing homepage for the repositioned brand. Daylight surfaces, ink sections for the Growth Index and footer, pattern-filled chart, annotated photo placeholders (FIG. labels; replace with real moody photography). Composes the visual grammar of components/ (buttons, stat panels, section headers) in static HTML.

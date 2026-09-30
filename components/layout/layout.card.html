@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- @dsCard group="Components" name="Layout: nav, section header, footer" subtitle="Site chrome and numbered section grammar" viewport="700x400" -->
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+body{margin:0;background:var(--bg);font-family:var(--font-body);color:var(--fg-1);padding:24px;display:flex;flex-direction:column;gap:18px;}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+.lbl{font-family:var(--font-mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--fg-3);}
+.btn{font-family:var(--font-body);font-weight:500;font-size:15px;padding:12px 24px;border-radius:2px;border:1px solid transparent;cursor:pointer;display:inline-flex;align-items:center;gap:8px;background:transparent;transition:all 250ms cubic-bezier(0.16,1,0.3,1);}
+.btn-primary{background:var(--accent);color:#EDEBE5;}
+.btn-primary:hover{background:var(--accent-hover);}
+.btn:active{transform:scale(0.98);}
+.btn-secondary{color:var(--fg-1);border-color:var(--border);}
+.btn-secondary:hover{opacity:0.7;}
+.btn-ghost{padding:4px 0;border-radius:0;border-bottom:1px solid var(--border);color:var(--fg-1);}
+.btn-sm{font-size:13px;padding:8px 16px;}
+.btn-dis{opacity:0.4;cursor:not-allowed;pointer-events:none;}
+.pill{font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;text-transform:uppercase;border:1px solid var(--border);border-radius:999px;padding:5px 12px;color:var(--fg-2);}
+.field{font-family:var(--font-body);font-size:15px;color:var(--fg-1);background:var(--surface);border:1px solid var(--border);border-radius:2px;padding:12px 14px;outline:none;}
+.mono{font-family:var(--font-mono);}
+</style></head><body>
+<div style="background:var(--bg);border:1px solid var(--border);border-radius:2px;display:flex;align-items:center;justify-content:space-between;padding:16px 24px">
+<div style="display:flex;align-items:center;gap:10px"><img src="../../assets/logo-mark.png" style="width:26px;height:26px"><span style="font-size:15px">Intentional</span></div>
+<div style="display:flex;align-items:center;gap:20px;font-size:13px"><span>Point of view</span><span>Work</span><span>Approach</span><button class="btn btn-primary btn-sm">Start a conversation</button></div>
+</div>
+<div style="border-top:1px solid var(--border);padding-top:18px;display:flex;flex-direction:column;gap:10px">
+<div style="display:flex;align-items:baseline;gap:16px"><span class="mono" style="font-size:13px;color:var(--accent)">02</span><span style="font-size:30px;letter-spacing:-0.025em">What we hold</span></div>
+<span style="font-family:var(--font-editorial);font-style:italic;font-size:16px;color:var(--fg-2)">The seat between the money and the creative.</span>
+</div>
+<div style="background:var(--ink);border-radius:2px;padding:24px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px">
+<div style="display:flex;flex-direction:column;gap:10px"><div style="display:flex;align-items:center;gap:10px"><img src="../../assets/logo-mark.png" style="width:24px;height:24px"><span style="color:var(--ink-fg-1);font-size:14px">Intentional</span></div><span style="color:var(--ink-fg-2);font-size:12px;line-height:1.5">Commercial growth advisory and creative agency.</span></div>
+<div style="display:flex;flex-direction:column;gap:8px"><span class="lbl" style="color:var(--ink-fg-2)">Advisory</span><span style="color:var(--ink-fg-1);font-size:12px">Growth strategy</span><span style="color:var(--ink-fg-1);font-size:12px">Measurement</span></div>
+<div style="display:flex;flex-direction:column;gap:8px"><span class="lbl" style="color:var(--ink-fg-2)">Contact</span><span style="color:var(--ink-fg-1);font-size:12px">Start a conversation</span><span style="color:var(--ink-fg-1);font-size:12px">hello@intention.al</span></div>
+</div>
+</body></html>

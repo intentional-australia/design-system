@@ -1,0 +1,1 @@
+Mono eyebrow above a headline.\n\n```jsx\n<Eyebrow>Commercial growth advisory</Eyebrow>\n```

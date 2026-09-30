@@ -1,0 +1,2 @@
+# Report UI kit
+Board-ready quarterly growth report / scorecard. Daylight, print-like: hairline rules, numbered workstream table, pattern-filled quarter chart, serif editorial reading. The Growth Index stat renders as the single ink panel.

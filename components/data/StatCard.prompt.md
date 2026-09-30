@@ -1,0 +1,1 @@
+Scorecard stat card.\n\n```jsx\n<StatCard label="Blended ROAS" value="4.2×" delta="0.6 VS LAST QTR" />\n<StatCard label="Growth index" value="137.2" big ink delta="12.4 YOY" />\n```

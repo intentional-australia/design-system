@@ -1,0 +1,1 @@
+Ink-mode site footer.\n\n```jsx\n<Footer />\n```
