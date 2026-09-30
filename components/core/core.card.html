@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- @dsCard group="Components" name="Core: buttons, inputs, badges" subtitle="Rectangular buttons, mono labels, outline pills" viewport="700x330" -->
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+body{margin:0;background:var(--bg);font-family:var(--font-body);color:var(--fg-1);padding:24px;display:flex;flex-direction:column;gap:18px;}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+.lbl{font-family:var(--font-mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--fg-3);}
+.btn{font-family:var(--font-body);font-weight:500;font-size:15px;padding:12px 24px;border-radius:2px;border:1px solid transparent;cursor:pointer;display:inline-flex;align-items:center;gap:8px;background:transparent;transition:all 250ms cubic-bezier(0.16,1,0.3,1);}
+.btn-primary{background:var(--accent);color:#EDEBE5;}
+.btn-primary:hover{background:var(--accent-hover);}
+.btn:active{transform:scale(0.98);}
+.btn-secondary{color:var(--fg-1);border-color:var(--border);}
+.btn-secondary:hover{opacity:0.7;}
+.btn-ghost{padding:4px 0;border-radius:0;border-bottom:1px solid var(--border);color:var(--fg-1);}
+.btn-sm{font-size:13px;padding:8px 16px;}
+.btn-dis{opacity:0.4;cursor:not-allowed;pointer-events:none;}
+.pill{font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;text-transform:uppercase;border:1px solid var(--border);border-radius:999px;padding:5px 12px;color:var(--fg-2);}
+.field{font-family:var(--font-body);font-size:15px;color:var(--fg-1);background:var(--surface);border:1px solid var(--border);border-radius:2px;padding:12px 14px;outline:none;}
+.mono{font-family:var(--font-mono);}
+</style></head><body>
+<div><div class="lbl" style="margin-bottom:10px">BUTTON · PRIMARY / SECONDARY / GHOST</div>
+<div class="row">
+<button class="btn btn-primary">Start a conversation <span>→</span></button>
+<button class="btn btn-secondary">Our point of view</button>
+<button class="btn btn-ghost">View the evidence →</button>
+<button class="btn btn-primary btn-sm">Small</button>
+<button class="btn btn-primary btn-dis">Disabled</button>
+</div></div>
+<div><div class="lbl" style="margin-bottom:10px">INPUT & SELECT</div>
+<div class="row">
+<label style="display:flex;flex-direction:column;gap:8px"><span class="lbl">Work email</span><input class="field" placeholder="you@company.com" style="width:220px"></label>
+<label style="display:flex;flex-direction:column;gap:8px"><span class="lbl">Annual revenue</span><select class="field" style="width:180px;color:var(--fg-3)"><option>Select…</option><option>$1–5M</option><option>$5–20M</option></select></label>
+</div></div>
+<div><div class="lbl" style="margin-bottom:10px">BADGE & EYEBROW</div>
+<div class="row">
+<span class="pill">Case study</span>
+<span class="pill" style="color:var(--accent);border-color:rgba(212,39,28,0.4)">Growth index</span>
+<span class="pill" style="color:var(--positive);border-color:rgba(46,83,57,0.35)">On track</span>
+<span class="mono" style="font-size:13px;letter-spacing:0.14em;color:var(--accent)">COMMERCIAL GROWTH ADVISORY</span>
+</div></div>
+</body></html>

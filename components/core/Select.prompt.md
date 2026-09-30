@@ -1,0 +1,1 @@
+Dropdown styled like Input.\n\n```jsx\n<Select label="Annual revenue" options={["<$1M","$1–5M","$5–20M","$20M+"]} />\n```

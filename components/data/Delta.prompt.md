@@ -1,0 +1,1 @@
+Change indicator for stats and tables.\n\n```jsx\n<Delta direction="up" value="4.2 PTS YOY" />\n```

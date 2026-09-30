@@ -1,0 +1,56 @@
+/* Intentional · Growth Advisory refresh · typography tokens */
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400..600&display=swap");
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url("../fonts/PPNeueMontreal-Medium.woff2") format("woff2"),
+       url("../fonts/PPNeueMontreal-Medium.woff") format("woff");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PP Neue Montreal Mono";
+  src: url("../fonts/PPNeueMontrealMono-Medium.woff2") format("woff2"),
+       url("../fonts/PPNeueMontrealMono-Medium.woff") format("woff");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk X Cond";
+  src: url("../fonts/FoundersGroteskXCond-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk X Cond";
+  src: url("../fonts/FoundersGroteskXCond-Semibold.ttf") format("truetype");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+
+:root {
+  --font-display: "PP Neue Montreal", "Helvetica Neue", sans-serif;   /* headlines at scale */
+  --font-body: "PP Neue Montreal", "Helvetica Neue", sans-serif;
+  --font-mono: "PP Neue Montreal Mono", "SF Mono", monospace;          /* data, labels, eyebrows */
+  --font-editorial: "Source Serif 4", Georgia, serif;                  /* italic annotations, pull-quotes */
+  --font-numeral: "Founders Grotesk X Cond", "Arial Narrow", sans-serif; /* oversized figures ONLY */
+
+  /* Display: PP Neue Montreal at scale, tight tracking */
+  --text-display-xl: 500 88px/1.02 var(--font-display);   /* tracking -0.035em */
+  --text-display: 500 56px/1.05 var(--font-display);      /* tracking -0.03em */
+  --text-h1: 500 40px/1.1 var(--font-display);            /* tracking -0.025em */
+  --text-h2: 500 28px/1.2 var(--font-display);            /* tracking -0.02em */
+  --text-h3: 500 20px/1.3 var(--font-display);            /* tracking -0.01em */
+
+  --text-body-lg: 500 18px/1.5 var(--font-body);
+  --text-body-md: 500 15px/1.5 var(--font-body);
+  --text-body-sm: 500 13px/1.45 var(--font-body);
+
+  --text-editorial: italic 500 24px/1.35 var(--font-editorial);
+
+  --text-mono-data: 500 15px/1.4 var(--font-mono);
+  --text-mono-label: 500 11px/1.3 var(--font-mono);       /* tracking 0.1em, uppercase */
+  --text-eyebrow: 500 13px/1.3 var(--font-mono);          /* tracking 0.14em, uppercase */
+
+  --text-numeral: 700 72px/1 var(--font-numeral);         /* index figures, big stats */
+
+  --tracking-display: -0.03em;
+  --tracking-label: 0.1em;
+  --tracking-eyebrow: 0.14em;
+}

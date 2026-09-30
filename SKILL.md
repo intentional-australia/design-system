@@ -1,6 +1,6 @@
 ---
 name: intentional-design
-description: Use this skill to generate well-branded interfaces and assets for Intentional, a commercial growth consultancy. Contains essential design guidelines, colors, type, fonts, assets, and UI kit components for prototyping.
+description: Use this skill to generate well-branded interfaces and assets for Intentional (commercial growth advisory and creative agency), either for production or throwaway prototypes/mocks/etc. Contains essential design guidelines, colors, type, fonts, assets, and UI kit components for prototyping.
 user-invocable: true
 ---
 

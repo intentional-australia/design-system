@@ -1,0 +1,1 @@
+Numbered section header.\n\n```jsx\n<SectionHeader number="02" title="What we hold" note="The seat between the money and the creative." />\n```
